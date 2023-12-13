@@ -10,7 +10,6 @@ const data = [
 ];
 
 const Slider = () => {
-  console.log(data.length);
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const prevSlide = () => {
